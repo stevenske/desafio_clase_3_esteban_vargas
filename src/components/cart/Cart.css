@@ -1,0 +1,14 @@
+.cart{
+    border: 2px solid #fff;
+    border-radius: 10%;
+    padding: 0.4rem;
+    margin-right: 1rem;
+}
+
+.cart-focus {
+    transition: 300ms;
+}
+.cart-focus:hover {
+    transform: scale(1.1);
+    border-color: #000;
+}

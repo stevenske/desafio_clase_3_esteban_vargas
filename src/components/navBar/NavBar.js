@@ -1,6 +1,8 @@
+import Cart from '../cart/Cart'
 import './NavBar.css'
 
 const NavBar = () =>{
+    const cartImg = './img/shopping_cart_logo.png'
     return(
         <nav className="navbar navbar-expand-lg bg-ice">
             <div className="container-fluid ">
@@ -22,6 +24,7 @@ const NavBar = () =>{
                             <a className="text-ice" href="#">CONTACTO</a>
                         </li>
                     </ul>
+                    <Cart img={cartImg}/>
                 </div>
             </div>
         </nav>

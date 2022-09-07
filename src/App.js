@@ -1,7 +1,7 @@
 import './App.css';
 import NavBar from './components/navBar/NavBar';
 import ItemListContainer from './components/itemListContainer/ItemListContainer';
-import Counter from './components/counter/Counter';
+import ItemCount from './components/itemCount/ItemCount';
 function App() {
 // los tastes seria el "stock"
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <NavBar/>
       <ItemListContainer greeting='bienvenido a helados a tu gusto!! '/>
-      <Counter tastes = {tastes}/>
+      <ItemCount tastes = {tastes}/>
     </div>
   );
 }

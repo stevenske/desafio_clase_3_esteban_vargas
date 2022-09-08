@@ -8,7 +8,7 @@ const ItemCount = ({ tastes }) => {
     return (
         <>
             <div className='counterContainer'>
-                <p>tenes {tastes} hasta gustos para elegir</p>
+                <p>tenes hasta {tastes} gustos para elegir</p>
                 <p>tenes {items} gustos en tu kilo de helado</p>
             </div>
             <button className='btn counterBtn' onClick={restar}>-</button>
